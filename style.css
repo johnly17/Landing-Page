@@ -1,0 +1,10 @@
+body {
+    display: flex;
+}
+
+
+
+.footer {
+    display: flex;
+    margin-top: auto;
+}
