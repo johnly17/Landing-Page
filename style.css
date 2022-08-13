@@ -108,7 +108,7 @@ img {
     display: flex;
     justify-content: space-around;
     width: 700px;
-    margin-left: 180px;
+    margin-left: 100px;
     flex-wrap: nowrap;
 }
 
@@ -121,7 +121,7 @@ figcaption {
 
 .section3 {
     background-color: #E5E7Eb;
-    height: 30vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,8 +129,40 @@ figcaption {
 }
 
 .quote {
-    padding: 0 300px;
+    padding: 0 50px;
     display: flex;
     font: 36px italic #1F2937;
-    
+}
+
+.thor {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 300px;
+    font-weight: bold;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    height: 10px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin: 100px 150px;
+    background-color: #3882F6;
+}
+
+.call, .signup {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    padding: 20px
 }
